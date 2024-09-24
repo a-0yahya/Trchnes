@@ -1,0 +1,59 @@
+.head {
+    background-color: #b4adbc;
+}
+
+.nav-item {
+    margin: 0px 40px 0px 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav-link {
+    color: #fff !important;
+
+    padding: 0 0 5px 0;
+    display: unset;
+}
+
+.head {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #9271b8;
+    border-radius: 5px;
+
+}
+
+.sec2 {
+    margin-top: 200px;
+
+}
+
+.sec2 table td a {
+    text-decoration: none;
+}
+
+.sec2 table {
+    background: rgba(141, 137, 133, 0.386);
+    border-radius: 4px;
+}
+
+
+
+.sec2 table td a:hover {
+    color: rgb(193, 193, 202);
+}
+
+.sec2 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,414 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.head {
+    background-color: #b4adbc;
+}
+
+.nav-item {
+    margin: 0px 40px 0px 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav-link {
+    color: #fff !important;
+
+    padding: 0 0 5px 0;
+    display: unset;
+}
+
+.head {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.sec2 {
+    background-color: #b4adbc;
+    padding-top: 50px;
+    height: 100%;
+}
+
+.sec2 img {
+    width: 400px;
+    /* margin-bottom: 20px 0 20px 50px; */
+    border-radius: 10px;
+    margin-top: 150px;
+    /* margin-left: auto; */
+    margin-left: 100px;
+    /* transform: translate(-10%, -10%); */
+    /* transform: skew(50deg); */
+    transform: translateX(40px);
+    transform: translateY(-40px);
+
+
+}
+
+.sec2 h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.sec2 p {
+    color: grey;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.sec3 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+
+}
+
+
+.sec3 img {
+    /* transform-origin: right top; */
+
+}
+
+.sec3 img:hover {
+    transform: rotate3d(0, 1, 0, 360deg);
+    cursor: pointer;
+    transform-origin: center center;
+    transition: 5s;
+}
+
+/* .sec3 img:hover {
+} */
+
+.sec3.card :hover {
+    /* transform: rotateX(90deg);
+    transform: rotate3d(1, 0, 0, 360deg);
+    transition: 4s;
+    cursor: pointer; */
+}
+
+/* .sec3 {
+    transform: rotate3d(1, 0, 0, 30deg);
+    transition: 4s;
+    cursor: pointer;
+    transform-origin: center bottom;
+}
+
+.sec3:hover {
+    transform: rotate3d(0, 1, 0, 300deg);
+    cursor: pointer;
+    transform-origin: center top;
+    transform-origin: center center;
+} */
+
+
+
+
+
+/* .sec3 .card:hover {
+    transform: rotate(.02turn);
+    transition: 2s;
+} */
+
+
+/* .col-md-6 img {
+    margin-left: 120px;
+} */
+
+.sec2 a {
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.sec3 {
+    margin: 75px 0;
+
+}
+
+.titel {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 300px;
+    font-size: 50px;
+    font-weight: 700;
+
+
+}
+
+.subtitel {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 100px 10px 100px 10px;
+}
+
+.card-img-top {
+    width: 60px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+
+}
+
+.card {
+    border: none;
+    transform: rotate3d(1, 0, 0, 0deg);
+    transition: 4s;
+    cursor: pointer;
+    transform-origin: center center;
+}
+
+.card-title {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    color: black;
+}
+
+.card:hover {
+    background: #b4adbc;
+    color: #fff;
+    transition: 0.3;
+    box-shadow: 0 15px 15px 2px rgb(213, 213, 213);
+    transform: translateY(10%);
+    /* transform: translateY(-20%); */
+
+}
+
+.card-text:hover {
+    color: #fff;
+    transition: 0.4s;
+}
+
+.sec3 img {
+    width: 320px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #9271b8;
+    border-radius: 5px;
+
+}
+
+
+
+.sec h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 200px;
+}
+
+.sec img {
+    margin-top: 100px;
+}
+
+.sec p {
+    font-size: 20px;
+    color: grey;
+
+}
+
+.sec4 h1 {
+    text-align: center;
+    margin: 200px 0 100px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sec4 {
+    margin-bottom: 100px;
+}
+
+.gallery {
+    height: 500px;
+    width: 300px;
+    display: flex;
+    margin: 5% auto 0;
+    box-sizing: border-box;
+}
+
+.img-box {
+    margin: 0 1%;
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: .5s;
+}
+
+.img-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.img-box:hover {
+    flex-basis: 50%;
+}
+
+.active {
+    flex-basis: 50%;
+}
+
+.gallery:hover .active {
+    flex-basis: 0;
+}
+
+.img-box:nth-child(1):hover {
+    flex-basis: 50%;
+}
+
+.sec5 h1 {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sec5 h2 {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 0;
+    font-weight: 900;
+}
+
+.sec5 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0 20px 160px;
+}
+
+.sec5 p {
+    max-width: 200px;
+    margin-left: 130px;
+    margin-bottom: 300px;
+}
+
+.card-r:hover {
+    background-color: #b3b8d875;
+    border-radius: 10px;
+
+}
+
+.card-r {
+
+    height: 350px;
+    margin-bottom: 200px;
+}
+
+.sec5 hr {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    color: #000;
+}
+
+.sec6 {
+    background-color: #b4adbc;
+}
+
+.info-titl {
+    margin: 50px 50px 0 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.info h3 {
+    margin: 20px 70px 10px 150px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+
+}
+
+.sec6 form {
+    margin: 100px;
+}
+
+.sec6 form input {
+    width: 300px;
+    border-color: #fff;
+    border-radius: 5px;
+}
+
+.sec6 a {
+    width: 30%;
+    margin: 30px 0px 0 100px;
+}
+
+.sec7 h1 {
+    margin: 200px auto 100px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.sec7 iframe {
+    border-radius: 30px;
+}
+
+.sec3 a:hover {
+    background-color: rgba(17, 14, 14, 0.721);
+}
+
+.sec2 span {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+
+.sm :nth-child(2) {
+    animation-delay: 1s;
+}
+
+.sm:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+.sm:nth-child(4) {
+    animation-delay: 2s;
+}

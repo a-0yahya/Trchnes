@@ -1,0 +1,109 @@
+.s1 img {
+    width: 300px;
+    height: 300px;
+}
+
+/* body {
+    background-color: rgba(201, 215, 211, 0.368);
+} */
+
+
+.s1 h1 {
+    font-size: 50px;
+    font-weight: 900px;
+    text-align: center;
+}
+
+.s1 img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.sec1 .art1-im img {
+    /* width: 600px;
+    /* height: 500px; */
+    border-radius: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+
+.sec1 h1 {
+    margin: 0 0 50px 0;
+}
+
+.sec1 p {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sec1 img {
+    /* width: 600px;
+    /* height: 500px; */
+    border-radius: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.sec1 h3 {
+    text-align: start;
+    margin-left: 150px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+.social-media img {
+    width: 50px;
+    margin: 20px;
+}
+
+
+
+.social-media {
+    display: flex;
+
+}
+
+.col .social-media {
+    margin-left: 120px;
+}
+
+.sm :nth-child(2) {
+    animation-delay: 600ms;
+}
+
+.sm:nth-child(3) {
+    animation-delay: 800ms;
+}
+
+.sm:nth-child(4) {
+    animation-delay: 1000ms;
+}

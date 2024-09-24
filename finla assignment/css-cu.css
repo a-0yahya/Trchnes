@@ -1,0 +1,41 @@
+.sec {
+    background-color: rgba(59, 59, 69, 0.748);
+    height: 91vh;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+.o {
+    background-color: gray;
+    height: 91vh;
+
+}
+
+.imm {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* margin-right: auto; */
+}
+
+.sec h1 {
+    text-align: center;
+    margin: 30px 0 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sec a {
+    width: 100px;
+    /* margin: 70px 0 100px 200px; */
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
